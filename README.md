@@ -6,7 +6,7 @@ A voice- or text-based AI assistant for querying recipes from your cookbook coll
 THIS IS VERY IMPORTANT - IT IS NOT A FAST CODE
 Files need to download on the first run. When you query the RAG it may take a minute to give you the material you are looking for!!
 ************************************************
-![Voice-Enabled Recipe RAG Assistant Demo](cookbook.jpg)
+![Voice-Enabled Recipe RAG Assistant Demo](cookbook.png)
 ## Features
 
 - **PDF Ingestion**: Extracts text from cookbooks (with OCR fallback for scanned pages) using PyMuPDF + Tesseract. Chunks content for precise retrieval.
