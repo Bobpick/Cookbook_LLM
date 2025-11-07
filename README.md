@@ -2,6 +2,11 @@
 
 A voice- or text-based AI assistant for querying recipes from your cookbook collection. It uses Retrieval-Augmented Generation (RAG) to search a vectorized corpus of PDFs, then generates natural, US-measurement recipes (or lists) via Ollama. Supports voice input/output for hands-free kitchen use!
 
+************************************************
+THIS IS VERY IMPORTANT - IT IS NOT A FAST CODE
+Files need to download on the first run. When you query the RAG it may take a minute to give you the material you are looking for!!
+************************************************
+
 ## Features
 
 - **PDF Ingestion**: Extracts text from cookbooks (with OCR fallback for scanned pages) using PyMuPDF + Tesseract. Chunks content for precise retrieval.
